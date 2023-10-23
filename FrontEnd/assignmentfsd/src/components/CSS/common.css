@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-image: linear-gradient(to right, black, gray);
+}
+.btn-l{
+    margin-left: 800px;
+    width: 150px;
+    height: 5%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(227, 236, 45), #beb7b7e2);
+    cursor: pointer;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+.btn{
+    margin: 10px;
+    width: 150px;
+    height: 5%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(227, 236, 45), #beb7b7e2);
+    cursor: pointer;
+}
+
+/* css for display component */
+.display-container{
+    width: 70%;
+    margin: 50px auto;
+}
+.card-container{
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 2px solid rgb(219, 219, 15);
+    border-radius: 10px;
+    box-shadow: 0px 16px 32px 0px rgba(36, 35, 35, 0.2);
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #fff;
+    
+}
+li{
+    font-weight: bold;
+    margin-left: 40px;
+}
+span{
+    color: grey;
+}
